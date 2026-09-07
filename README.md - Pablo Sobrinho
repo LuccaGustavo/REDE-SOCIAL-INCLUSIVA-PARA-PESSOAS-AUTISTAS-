@@ -1,0 +1,52 @@
+# Projeto Integrador IV — Pessoa 3: Feed + Perfil
+
+Este pacote contém a implementação de FRONTEND da etapa “Feed + Perfil” da prova de conceito da rede social inclusiva para pessoas autistas.
+
+## Relação com a 1ª etapa
+
+Na primeira etapa, o projeto definiu uma rede social inclusiva para pessoas autistas, com uma jornada que passa pelo cadastro, configuração de acessibilidade, feed e perfil do usuário.
+
+A prova de conceito desta parte implementa a continuação da jornada do usuário após o login, permitindo visualizar publicações da comunidade, interagir com posts e acessar as informações do próprio perfil.
+
+## O que está incluído
+
+- Página inicial do Feed;
+- Menu de navegação entre Feed e Perfil;
+- Publicações de demonstração;
+- Exibição do autor, horário e conteúdo das publicações;
+- Sistema de curtidas;
+- Contagem de curtidas;
+- Sistema simples de comentários;
+- Contagem de comentários;
+- Formulário para criar uma nova publicação;
+- Página de Perfil do usuário;
+- Exibição do nome do usuário;
+- Exibição do tipo de conta;
+- Edição do nome de exibição;
+- Salvamento local do nome do usuário;
+- Exibição das preferências de acessibilidade;
+- Link para retornar ao Feed;
+- Interface responsiva para computador e celular;
+- Layout simples, organizado e com baixo estímulo visual.
+
+## Tecnologias utilizadas
+
+- React;
+- JavaScript;
+- React Router;
+- Vite;
+- CSS;
+- LocalStorage;
+- HTML semântico.
+
+## Rotas adicionadas
+
+Feed:
+
+```text
+/feed
+
+Perfil:
+
+```text
+/perfil
