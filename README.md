@@ -89,6 +89,48 @@ Body:
 
 O backend poderá retornar JSON. O frontend aceita uma resposta com `token`, `accessToken` ou apenas uma confirmação de sucesso.
 
+---
+
+# Projeto Integrador IV — Pessoa 2: Configurações de Acessibilidade
+
+Esta parte do projeto implementa a etapa de configurações de acessibilidade da prova de conceito da rede social inclusiva para pessoas autistas.
+
+## Relação com a 1ª etapa
+
+Na primeira etapa, o projeto definiu uma rede social inclusiva para pessoas autistas, com uma jornada que inclui cadastro, configuração inicial, acesso ao feed e perfil.
+
+Esta contribuição implementa a etapa de configuração de acessibilidade, permitindo que o usuário personalize a forma como utiliza a plataforma.
+
+## O que foi desenvolvido
+
+- Modo escuro;
+- Baixo estímulo visual;
+- Alteração do tamanho do texto;
+- Ativação e desativação de animações;
+- Ativação e desativação de sons;
+- Salvamento das preferências no navegador;
+- Botão para restaurar as configurações padrão;
+- Interface responsiva;
+- Navegação por teclado;
+- Rota `/acessibilidade` conectada ao novo componente.
+
+## Arquivos relacionados
+
+- `frontend/src/components/AccessibilitySettings.jsx`
+- `frontend/src/components/accessibility.css`
+- `frontend/src/App.jsx`
+
+A rota `/acessibilidade`, que anteriormente exibia uma tela provisória, agora abre a tela funcional de configurações de acessibilidade.
+
+## Como testar
+
+Na pasta `frontend`, execute:
+
+```bash
+npm install
+npm run dev
+
+
 ## Ponto de integração para a Pessoa 4
 
 A Pessoa 4 pode manter as rotas acima ou alterar os caminhos no arquivo:
