@@ -128,8 +128,7 @@ Na pasta `frontend`, execute:
 
 ```bash
 npm install
-npm run dev
-
+npm run dev.
 
 ## Ponto de integração para a Pessoa 4
 
