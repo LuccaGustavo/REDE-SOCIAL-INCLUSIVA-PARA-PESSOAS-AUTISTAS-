@@ -1,25 +1,25 @@
 # Projeto Integrador IV — Pessoa 2: Configurações de Acessibilidade
 
-Esta parte do projeto implementa a etapa de **configurações de acessibilidade** da prova de conceito da rede social inclusiva para pessoas autistas.
+Esta parte do projeto implementa a etapa de configurações de acessibilidade da prova de conceito da rede social inclusiva para pessoas autistas.
 
 ## Relação com a 1ª etapa
 
 Na primeira etapa, o projeto definiu uma rede social inclusiva para pessoas autistas, com uma jornada que inclui cadastro, configuração inicial, acesso ao feed e perfil.
 
-Esta contribuição implementa a etapa de **configuração de acessibilidade**, permitindo que o usuário personalize a forma como utiliza a plataforma.
+Esta contribuição implementa a etapa de configuração de acessibilidade, permitindo que o usuário personalize a forma como utiliza a plataforma.
 
 ## O que foi desenvolvido
 
-- **Modo escuro**
-- **Baixo estímulo visual**
-- **Alteração do tamanho do texto**
-- **Ativação e desativação de animações**
-- **Ativação e desativação de sons**
-- **Salvamento das preferências no navegador**
-- **Botão para restaurar as configurações padrão**
-- **Interface responsiva**
-- **Navegação por teclado**
-- **Rota `/acessibilidade` conectada ao novo componente**
+- Modo escuro;
+- Baixo estímulo visual;
+- Alteração do tamanho do texto;
+- Ativação e desativação de animações;
+- Ativação e desativação de sons;
+- Salvamento das preferências no navegador;
+- Botão para restaurar as configurações padrão;
+- Interface responsiva;
+- Navegação por teclado;
+- Rota `/acessibilidade` conectada ao novo componente.
 
 ## Arquivos relacionados
 
