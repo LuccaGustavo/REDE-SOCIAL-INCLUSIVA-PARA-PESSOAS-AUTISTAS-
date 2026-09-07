@@ -128,7 +128,7 @@ Na pasta `frontend`, execute:
 
 ```bash
 npm install
-npm run dev
+npm run dev```
 
 ---
 
